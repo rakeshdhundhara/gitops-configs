@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: backend
-          image: itsbaivab/backend # Tag managed by kustomization.yaml
+          image: rakeshdhundhara/backend # Tag managed by kustomization.yaml
           ports:
             - containerPort: 8080
           env:
@@ -101,3 +101,4 @@ spec:
       protocol: TCP
   selector:
     app: backend
+
